@@ -400,6 +400,11 @@ template {
   margin-top: 1em;
   }
 
+.logobooki {
+    width: 4em;
+    height: 1.3em;
+  }
+
 .hebergementsactivites {
 padding-right: 5%;
 display: flex;
@@ -407,15 +412,16 @@ gap : 35%;
 }
 
 .hebergementsactivites :hover {
-text-decoration: overline;
-color: #0065FC;
+   text-decoration: underline;
+   color: blue;
+   text-underline-offset: -1.8em;
 }
 
 
 .recherche {
   padding: 10px;
   margin-top: 3%;
-  margin-right: 74%;
+  margin-right: 80%;
   display: flex;
   justify-content : flex start
 }
@@ -426,7 +432,20 @@ color: #0065FC;
   border-style: solid;
   border-color: #F2F2F2;
   background-color: #F2F2F2;
+  color: black;
 }
+
+input {
+    border-top: hidden;
+    border-left: hidden;
+    border-style: solid;
+    border-color: #F2F2F2;
+    width: 160px;
+    font-weight: bold;
+    padding-left: 8%;
+    padding-right: 2%;
+}
+
 
 .click {
   border-radius: 0px 15px 15px 0px;
@@ -443,6 +462,7 @@ color: #0065FC;
   top: 10px;
   }
 
+
 .filtres-container {
 padding-top: 5%;
 }
@@ -453,9 +473,12 @@ padding-top: 5%;
   gap: 1%;
 }
 
-
 .filtres :hover {
   background-color: #DEEBFF;
+}
+
+.filtres .strong :hover {
+    background-color: white;
 }
 
 .bord {
