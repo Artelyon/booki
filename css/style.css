@@ -396,8 +396,9 @@ template {
 .menu {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 3%;
-  margin-top: 1em;
+  padding-bottom: 3em;
+  padding-top: 1em;
+
   }
 
 .logobooki {
@@ -405,16 +406,18 @@ template {
     height: 1.3em;
   }
 
+
 .hebergementsactivites {
 padding-right: 5%;
 display: flex;
 gap : 35%;
+margin-top: 0;
 }
 
 .hebergementsactivites :hover {
-   text-decoration: underline;
-   color: blue;
-   text-underline-offset: -1.8em;
+    color: #0065FC;
+    border-top: 2px solid blue;
+    padding-top: 1em;
 }
 
 
@@ -426,13 +429,16 @@ gap : 35%;
   justify-content : flex start
 }
 
+.fa-solid .fa-location-dot {
+    color: black;
+}
+
 .active {
   border-radius: 15px 0px 0px 15px; 
   border-width: 15px;
   border-style: solid;
   border-color: #F2F2F2;
   background-color: #F2F2F2;
-  color: black;
 }
 
 input {
@@ -448,32 +454,36 @@ input {
 
 
 .click {
-  border-radius: 0px 15px 15px 0px;
-  border-width: 15px;
-  border-style: solid;
-  border-color: #0065FC;
-  background-color: #0065FC;
-  color: white;
-  font-weight: bold;
+    border-radius: 0px 15px 15px 0px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #0065FC;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
 }
 
-.strong {
-  position: relative;
-  top: 10px;
-  }
 
 
 .filtres-container {
-padding-top: 5%;
+    padding-top: 5%;
 }
 
 .filtres {
-  display: flex;
-  justify-content: flex-start;
-  gap: 1%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 1%;
 }
 
-.filtres :hover {
+.invictus{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
+}
+
+.gloria .invictus :hover {
   background-color: #DEEBFF;
 }
 
@@ -482,11 +492,19 @@ padding-top: 5%;
 }
 
 .bord {
-  padding: 10px;
+  padding: 11px;
   border-width: medium;
   border-style : solid;
-  border-color: lightgray;
+  border-color: #F2F2F2;
   border-radius: 24px;
+  gap: 0.5em;
+  display: flex;
+  align-items: center;
+}
+
+.pepites {
+    display: flex;
+   justify-items: flex-start;
 }
 
 .logements {
@@ -524,9 +542,9 @@ justify-content: flex-start;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-}
+    display: flex;
+    justify-content: center;
+  }
 
 .main-container {
   
