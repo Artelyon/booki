@@ -223,6 +223,7 @@ a {
 .hebergements-cards .card {
   margin-top: 33px;
   width: 100%;
+  padding: 0;
 }
 
 .hebergements-cards .card-title {
@@ -410,4 +411,13 @@ a {
 .hebergements-cards .card {
     width: 250%;
 }
+
+.hebergements-cards img { 
+    height: 150px;
+    }
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+}
+
 }
