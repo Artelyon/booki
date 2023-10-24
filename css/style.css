@@ -417,10 +417,26 @@ a {
     width: 345%;
 }
 
+.hebergements-cards .card-title {
+    font-size: x-large;
+}
+
+.hebergements-cards .card-subtitle {
+    font-size: x-large;
+}
+
+.euro {
+    size: x-large;
+}
+
 .hebergements-cards img { 
     height: 200px;
     width: 100%;
     }
+
+.hebergements-cards h3 {
+    font-size: xx-large;
+}
 
 .populaires-cards {
     display: flex;
