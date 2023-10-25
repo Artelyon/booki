@@ -95,6 +95,8 @@ input {
    gap: 1%;
 }
 
+
+
 .invictus{
     display: flex;
     justify-content: flex-start;
@@ -119,11 +121,7 @@ input {
   gap: 0.5em;
   display: flex;
   align-items: center;
-}
-
-.pepites {
-    display: flex;
-   justify-items: flex-start;
+  text-align: center;
 }
 
 .logements {
@@ -150,6 +148,10 @@ justify-content: flex-start;
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
   --filter-bg-color: #DEEBFF;
+}
+
+:root .active {
+    --main-color: black;
 }
 
 .fa-solid {
@@ -341,7 +343,7 @@ a {
 .Activites-cards img {
   width: 100%;
   height: 500px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 
