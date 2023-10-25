@@ -12,30 +12,32 @@
     margin-top: 20px;
 }
 
-
 .hebergementsactivites {
-    
     display: flex;
-    gap: 20px;
+    justify-content: end;
+    gap: 15%;
+}
+
+.hebergementsactivites .top1 {
     margin-top: 0;
     padding-top: 1em;
 }
 
-.hebergementsactivites:hover {
+.hebergementsactivites .top2 {
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+.top1:hover {
     color: #0065FC;
     border-top: 2px solid blue;
     padding-top: 1em;
 }
 
-.top_a {
-    border-top:2px solid black;
-    
-}
-
-.top_a:hover {
+.top2:hover {
     color: #0065FC;
     border-top: 2px solid blue;
-    
+    padding-top: 1em;
 }
 
 .recherche {
@@ -95,8 +97,6 @@ input {
    gap: 1%;
 }
 
-
-
 .invictus{
     display: flex;
     justify-content: flex-start;
@@ -113,21 +113,21 @@ input {
 }
 
 .bord {
-  padding: 11px;
-  border-width: medium;
-  border-style : solid;
-  border-color: #F2F2F2;
-  border-radius: 24px;
-  gap: 0.5em;
-  display: flex;
-  align-items: center;
-  text-align: center;
+    padding: 11px;
+    border-width: medium;
+    border-style : solid;
+    border-color: #F2F2F2;
+    border-radius: 24px;
+    gap: 0.5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .logements {
-  gap: 5%;
-display: flex;
-justify-content: flex-start;
+    gap: 5%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .infoicon {
