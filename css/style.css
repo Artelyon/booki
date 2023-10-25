@@ -406,11 +406,21 @@ a {
 
 @media screen and (max-width: 768px) {
 
-    .main-container {
+.logements {
+    font-size: 30px;
+    display: flex;
+   align-items: center;
+   text-align: center;
+   gap: 25px;
+}
+
+
+
+.main-container {
         width: 100%;
     }
 
-    .lignehebergement {
+.lignehebergement {
         display: flex;
         flex-direction: column;
 }
@@ -437,7 +447,7 @@ a {
     }
 
 .hebergements-and-populaires h2 {
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 .hebergements-cards h3 {
@@ -450,7 +460,7 @@ a {
 }
 
 .populaires-cards .card {
-    width: 345%;
+    width: 325%;
     height: 250px;
 }
 
@@ -473,6 +483,14 @@ a {
 
 .hebergements-and-populaires .star {
     font-size: x-large;
+}
+
+.populaires section {
+    background-color: white;
+}
+
+.hebergements section {
+    background-color: white;
 }
 
 .Activites-cards {
