@@ -434,11 +434,26 @@ a {
 @media screen and (max-width: 768px) {
 
     .logobooki {
-        font-size: 30px;
+        font-size: 29px;
+        margin-left: 250PX;
     }
 
     .hebergementsactivites {
         font-size: 28px;
+        margin-right: 150PX;
+        gap: 25%;
+    }
+
+    .top1:hover {
+        text-decoration: underline;
+        text-underline-offset: 25px;
+        color: blue;
+    }
+
+    .top2:hover {
+        text-decoration: underline;
+        text-underline-offset: 25px;
+        color: blue;
     }
 
 .menu {
@@ -447,6 +462,11 @@ a {
     justify-content: center;
 }
 
+.active {
+    font-size: 30px;
+    width: 35px;
+    align-content: center;
+}
 
 .recherche {
     width: 3100px;
@@ -454,16 +474,21 @@ a {
 }
 
 .input {
-    font-size: 30px;
+    font-size: 23px;
+    text-align: left;
 }
 
 .click {
 
 }
 
+.strong {
+    font-size: 28px;
+}
+
 .invictus {
-    display: grid;
-    grid-column: auto;
+   display: grid;
+    
 }
 
 .bord {
@@ -514,6 +539,10 @@ a {
 
 .hebergements-cards h3 {
     font-size: xx-large;
+}
+
+.chart {
+    font-size: 30PX;
 }
 
 .populaires-cards {
