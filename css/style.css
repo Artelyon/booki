@@ -89,6 +89,9 @@ input {
     font-size: medium;
 }
 
+.glass {
+    visibility: hidden;
+}
 
 
 .filtres-container {
@@ -448,6 +451,7 @@ a {
         text-decoration: underline;
         text-underline-offset: 25px;
         color: blue;
+        
     }
 
     .top2:hover {
@@ -479,7 +483,19 @@ a {
 }
 
 .click {
+    display: none;
+}
 
+
+.glass {
+    border-radius: 0px 15px 15px 0px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #0065FC;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .strong {
