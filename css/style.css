@@ -148,7 +148,7 @@ input {
 }
 
 .infoicon {
-  padding: 5px;
+  padding: 10px;
   border: 1px;
   border-width: thin;
   border-style : solid;
@@ -447,26 +447,31 @@ a {
 
     .logobooki {
         font-size: 29px;
-        margin-left: 250PX;
+        margin-left: 250px;
     }
 
     .hebergementsactivites {
         font-size: 28px;
-        margin-right: 150PX;
+        margin-right: 150px;
         gap: 25%;
+        text-decoration: underline #F2F2F2;
+        text-underline-offset: 1em;
     }
 
     .top1:hover {
         text-decoration: underline;
         text-underline-offset: 25px;
         color: blue;
-        
+        border-top: 2px solid white;
+        padding-top: 1em;
     }
 
     .top2:hover {
         text-decoration: underline;
         text-underline-offset: 25px;
         color: blue;
+        border-top: 2px solid white;
+        padding-top: 1em;
     }
 
 .menu {
@@ -475,25 +480,36 @@ a {
     justify-content: center;
 }
 
+.section-title {
+    font-size: 42px;
+    margin-left: 40px;
+}
+
+.nature {
+    font-size: 29px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
 .active {
     font-size: 30px;
     width: 35px;
+    border-radius: 28px 0 0 28px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .recherche {
-    width: 3100px;
+    width: 2000px;
     height: 80px;
 }
 
 .input {
     font-size: 23px;
-    text-align: left;
-    position: relative;
-    z-index: 2;
-    
+    padding-right: 150px;
+   padding-left: 150px;
+   font-size: 30px;
 }
 
 .click {
@@ -513,20 +529,22 @@ a {
 }
 
 .strong {
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .invictus {
     display: grid;
     grid-template-columns: 55% 55%;
-    grid-template-rows: 120px 120px;
-    
+    grid-template-rows: 115px 115px;
+    margin-left: 30px;
+    gap: 12px;
 }
 
 .bord {
-    font-size: 23px;
+    font-size: 28px;
     padding: 26px;
     border-radius: 45px;
+    border-width: thick;
 }
 
 .logements {
@@ -540,6 +558,10 @@ a {
 .main-container {
         width: 100%;
     }
+
+.hebergements-and-populaires .hebergements {
+    background-color: white;
+}
 
 .lignehebergement {
         display: flex;
@@ -644,7 +666,7 @@ a {
 .Activites-cards img {
     width: 100%;
     height: 300px;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 0 0;
 }
 
 .Activites-section .cardfoot {
