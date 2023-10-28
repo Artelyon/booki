@@ -90,9 +90,15 @@ input {
 }
 
 .glass {
-    visibility: hidden;
+    border-radius: 0px 15px 15px 0px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #0065FC;
+    background-color: #0065FC;
+    color: white;
+    font-size: medium;
+    display: none;
 }
-
 
 .filtres-container {
     padding-top: 5%;
@@ -469,7 +475,9 @@ a {
 .active {
     font-size: 30px;
     width: 35px;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .recherche {
@@ -486,16 +494,14 @@ a {
     display: none;
 }
 
-
 .glass {
-    border-radius: 0px 15px 15px 0px;
-    border-width: 15px;
-    border-style: solid;
-    border-color: #0065FC;
-    background-color: #0065FC;
-    color: white;
-    font-weight: bold;
-    font-size: medium;
+    border-radius: 25px;
+    width: 75px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: x-large;
+    display: inherit;
 }
 
 .strong {
@@ -616,6 +622,7 @@ a {
 .Activites-section .Activites-cards {
     display: flex;
    flex-direction: column;
+   gap: 20px;
 }
 
 .Activites-section h2 {
