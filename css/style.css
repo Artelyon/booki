@@ -454,13 +454,24 @@ a {
         font-size: 28px;
         margin-right: 150px;
         gap: 25%;
-        text-decoration: underline #F2F2F2;
-        text-underline-offset: 1em;
     }
+
+    .top1 {
+        border-bottom: 2px solid #F2F2F2;
+        border: 80px;
+        padding-bottom: 0.65em;
+        
+    }
+
+    .top2 {
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 0.65em;
+}
 
     .top1:hover {
         text-decoration: underline;
         text-underline-offset: 25px;
+        display: inline-block;
         color: blue;
         border-top: 2px solid white;
         padding-top: 1em;
