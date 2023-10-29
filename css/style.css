@@ -444,28 +444,35 @@ a {
 /******* Mobile ******/
 
 @media screen and (max-width: 768px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
     .logobooki {
         font-size: 29px;
-        margin-left: 250px;
+        margin-left: 280px;
+        margin-bottom: 25px;
     }
 
     .hebergementsactivites {
         font-size: 28px;
         gap: 20%;
         border-bottom: 2px solid #F2F2F2;
+        border-width: thick;
         width: 850px;
         padding-bottom: 0.65em;
-
-       
-    }
+}
 
     .top1 {
-        padding-right: 80px;
+        padding-right: 40px;
+        
     }
 
     .top2 {
-        padding-right: 250px;
+        padding-right: 260px;
     }
 
 
@@ -481,17 +488,11 @@ a {
     .top2:hover {
         text-decoration: underline;
         text-underline-offset: 25px;
-        
+      text-decoration-thickness: 4px;
         color: blue;
         border-top: 2px solid white;
         padding-top: 1em;
     }
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .section-title {
     font-size: 42px;
@@ -505,8 +506,8 @@ a {
 }
 
 .active {
-    font-size: 30px;
-    width: 35px;
+    font-size: 35px;
+    width: 80px;
     border-radius: 28px 0 0 28px;
     display: flex;
     justify-content: center;
@@ -514,15 +515,16 @@ a {
 }
 
 .recherche {
-    width: 2000px;
-    height: 80px;
+   width: fit-content;
+    height: 95px;
 }
 
 .input {
     font-size: 23px;
-    padding-right: 150px;
-   padding-left: 150px;
+    padding-right: 0;
+   padding-left: 50px;
    font-size: 30px;
+   width: fit-content;
 }
 
 .click {
@@ -531,11 +533,11 @@ a {
 
 .glass {
     border-radius: 25px;
-    width: 75px;
+    width: 95px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: x-large;
+    font-size: 30px;
     position: relative;
     z-index: 1;
     margin-right: 175px;
