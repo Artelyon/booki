@@ -444,7 +444,7 @@ a {
 /******* Mobile ******/
 
 @media screen and (max-width: 768px) {
-
+    
     .logobooki {
         font-size: 29px;
         margin-left: 250px;
@@ -452,26 +452,27 @@ a {
 
     .hebergementsactivites {
         font-size: 28px;
-        margin-right: 150px;
-        gap: 25%;
+        gap: 20%;
+        border-bottom: 2px solid #F2F2F2;
+        width: 850px;
+        padding-bottom: 0.65em;
+
+       
     }
 
     .top1 {
-        border-bottom: 2px solid #F2F2F2;
-        border: 80px;
-        padding-bottom: 0.65em;
-        
+        padding-right: 80px;
     }
 
     .top2 {
-        border-bottom: 2px solid #F2F2F2;
-        padding-bottom: 0.65em;
-}
+        padding-right: 250px;
+    }
+
 
     .top1:hover {
-        text-decoration: underline;
-        text-underline-offset: 25px;
-        display: inline-block;
+        border-bottom: 2px solid blue;
+        width: 400px;
+        padding-bottom: 1em;
         color: blue;
         border-top: 2px solid white;
         padding-top: 1em;
@@ -480,6 +481,7 @@ a {
     .top2:hover {
         text-decoration: underline;
         text-underline-offset: 25px;
+        
         color: blue;
         border-top: 2px solid white;
         padding-top: 1em;
