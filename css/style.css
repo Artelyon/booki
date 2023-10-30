@@ -18,27 +18,20 @@
     gap: 15%;
 }
 
-.hebergementsactivites .top1 {
+.hebergementsactivites .top {
     margin-top: 0;
     padding-top: 1em;
 }
 
-.hebergementsactivites .top2 {
-    margin-top: 0;
-    padding-top: 1em;
-}
 
-.top1:hover {
+
+.top:hover {
     color: #0065FC;
     border-top: 2px solid blue;
     padding-top: 1em;
 }
 
-.top2:hover {
-    color: #0065FC;
-    border-top: 2px solid blue;
-    padding-top: 1em;
-}
+
 
 .nature {
     margin-top: 2px;
@@ -139,13 +132,14 @@ input {
 }
 
 .logements {
+    margin-top: 20px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: flex-start;
+    align-items: baseline;
 }
 
-.dispo {
-    margin-left: 10px;
-}
+
 
 .infoicon {
   padding: 10px;
@@ -154,9 +148,19 @@ input {
   border-style : solid;
   border-color: lightgray;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 10px;
+  height: 10px;
 }
+
+.logements .fa-solid {
+    display: flex;
+    align-items: center;
+    
+}
+
+
 * {
   font-family: 'Raleway', sans-serif;
 }
@@ -460,20 +464,11 @@ a {
     .hebergementsactivites {
         font-size: 28px;
         gap: 20%;
-        border-bottom: 2px solid #F2F2F2;
-        border-width: thick;
-        width: 850px;
-        padding-bottom: 0.65em;
+        
 }
 
-    .top1 {
-        padding-right: 40px;
-        
-    }
+    
 
-    .top2 {
-        padding-right: 260px;
-    }
 
 
     .top1:hover {
@@ -482,7 +477,7 @@ a {
         padding-bottom: 1em;
         color: blue;
         border-top: 2px solid white;
-        padding-top: 1em;
+        padding-top: 0.65em;
     }
 
     .top2:hover {
@@ -549,7 +544,7 @@ a {
 
 .invictus {
     display: grid;
-    grid-template-columns: 55% 55%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 115px 115px;
     margin-left: 30px;
     gap: 12px;
@@ -566,6 +561,7 @@ a {
     font-size: 29px;
     display: flex;
    align-items: baseline;
+   justify-content: baseline;
    text-align: center;
   margin-right: 45px;
 }
