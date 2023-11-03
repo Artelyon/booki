@@ -14,7 +14,7 @@
 
 .hebergementsactivites {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     gap: 15%;
 }
 
@@ -157,7 +157,6 @@ input {
 .logements .fa-solid {
     display: flex;
     align-items: center;
-    
 }
 
 
@@ -448,46 +447,49 @@ a {
 /******* Mobile ******/
 
 @media screen and (max-width: 768px) {
+    
+    
+    .main-container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
+    
     .menu {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+    }
+
+    nav a {
+        border-top: 2px solid white;
+        padding-top: 0.65em;
     }
     
     .logobooki {
         font-size: 29px;
-        margin-left: 280px;
-        margin-bottom: 25px;
-    }
-
-    .hebergementsactivites {
-        font-size: 28px;
-        gap: 20%;
         
-}
+    }
 
-    
-
-
-
-    .top1:hover {
-        border-bottom: 2px solid blue;
-        width: 400px;
+.hebergementsactivites {
+        font-size: 28px;
+        border-bottom: 2px solid lightgray;
         padding-bottom: 1em;
-        color: blue;
-        border-top: 2px solid white;
-        padding-top: 0.65em;
+        width: 100%;
     }
 
-    .top2:hover {
-        text-decoration: underline;
-        text-underline-offset: 25px;
-      text-decoration-thickness: 4px;
-        color: blue;
-        border-top: 2px solid white;
-        padding-top: 1em;
-    }
+ nav a:hover {
+    padding-bottom: 0;
+    border-bottom: 2px solid blue;
+    padding-bottom: 1em;
+
+}
+    
 
 .section-title {
     font-size: 42px;
@@ -512,6 +514,7 @@ a {
 .recherche {
    width: fit-content;
     height: 95px;
+    margin-left: 50px;
 }
 
 .input {
@@ -527,7 +530,7 @@ a {
 }
 
 .glass {
-    border-radius: 25px;
+    border-radius: 0 25px 25px 0;
     width: 95px;
     display: flex;
     justify-content: center;
@@ -546,7 +549,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 115px 115px;
-    margin-left: 30px;
+    margin-left: 75px;
     gap: 12px;
 }
 
@@ -557,18 +560,22 @@ a {
     border-width: thick;
 }
 
+.infoicon {
+    width: 25px;
+    height: 25px;
+}
+
 .logements {
-    font-size: 29px;
+    font-size: 30px;
     display: flex;
    align-items: baseline;
    justify-content: baseline;
    text-align: center;
   margin-right: 45px;
+  margin-left: 30px;
 }
 
-.main-container {
-        width: 100%;
-    }
+
 
 .hebergements-and-populaires .hebergements {
     background-color: white;
@@ -667,11 +674,13 @@ a {
 .Activites-section .Activites-cards {
     display: flex;
    flex-direction: column;
+   align-items: center;
    gap: 20px;
 }
 
 .Activites-section h2 {
     font-size: 2.5em;
+    padding-left: 60px;
 }
 
 .Activites-cards img {
@@ -681,7 +690,7 @@ a {
 }
 
 .Activites-section .cardfoot {
-    width: 100%;
+    width: 85%;
     background-color: white;
     border-radius: 20px;
     border-width: 0px 0px 0px 100px;
@@ -690,6 +699,7 @@ a {
   }
 
 .downmenus {
+    padding-left: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
