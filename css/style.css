@@ -650,12 +650,9 @@ a {
     font-size: x-large;
 }
 
-.populaires section {
-    background-color: white;
-}
-
-.hebergements section {
-    background-color: white;
+.hebergements-and-populaires .populaires {
+    background-color: #F2F2F2;
+    border-radius: 0;
 }
 
 .Activites-cards {
