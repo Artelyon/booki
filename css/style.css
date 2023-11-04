@@ -483,7 +483,7 @@ a {
         width: 100%;
     }
 
- nav a:hover {
+ nav .top:hover {
     padding-bottom: 0;
     border-bottom: 2px solid blue;
     padding-bottom: 1em;
@@ -569,7 +569,6 @@ a {
     font-size: 30px;
     display: flex;
    align-items: baseline;
-   justify-content: baseline;
    text-align: center;
   margin-right: 45px;
   margin-left: 30px;
@@ -599,7 +598,7 @@ a {
 }
 
 .euro {
-    size: x-large;
+    resize: inherit;
 }
 
 .hebergements-cards img { 
