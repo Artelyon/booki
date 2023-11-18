@@ -462,6 +462,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
 }
   
 nav a {
@@ -479,15 +480,18 @@ nav a {
     width: 100%;
     padding-bottom: 1em;;
 }
+
+
+
   
-.hebergementsactivites .top:hover {
+nav .top:hover {
     border-bottom: 2px solid blue;
     padding-bottom: 1em;
-}
-
-.top:hover {
+    margin-bottom: -29.5px;
+    width: 400px;
     border-top:  2px solid white;
     padding-top: 1em; 
+    
 }
       
 .section-title {
@@ -544,9 +548,6 @@ nav a {
     font-size: 35px;
 }
 
-.filtres-container {
-    box-sizing: border-box;
-}
 
   
 .invictus {
