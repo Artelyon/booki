@@ -444,7 +444,10 @@ a {
 }
   
   
-  /******* Mobile ******/
+ 
+
+
+/******* Mobile ******/
   
 @media screen and (min-width: 320px) and (max-width:768px) {
       
@@ -479,30 +482,34 @@ nav a {
     border-bottom: 2px solid lightgray;
     width: 100%;
     padding-bottom: 1em;;
+    gap: 195px;
 }
 
 
-
-  
 nav .top:hover {
+    display: flex;
+    justify-content: center;
     border-bottom: 2px solid blue;
     padding-bottom: 1em;
     margin-bottom: -29.5px;
-    width: 400px;
+    width: 420px;
     border-top:  2px solid white;
-    padding-top: 1em; 
+    padding-top: 1em;
+    box-sizing: border-box; 
     
 }
       
 .section-title {
     font-size: 42px;
     margin-left: 40px;
+    margin-top: 60px;
 }
   
 .nature {
     font-size: 29px;
     margin-top: 15px;
     margin-left: 40px;
+    margin-bottom: 50px;
 }
   
 .active {
@@ -583,6 +590,7 @@ nav .top:hover {
     margin-left: 30px;
 }
   
+/******** Populaires ******/
   
 .chart {
     font-size: 30px;
@@ -610,6 +618,7 @@ nav .top:hover {
     font-size: x-large;
 }
   
+/****** Hébergements *******/
 
 .hebergements-and-populaires {
     display: flex;
@@ -664,7 +673,7 @@ nav .top:hover {
     font-size: xx-large;
 }
   
-  
+/****** Activités *****/
   
 .Activites-cards {
     gap: 10%;
@@ -705,6 +714,8 @@ nav .top:hover {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
   
+/****** A propos *****/
+
 .bottomlinks {
     padding-left: 40px;
     display: flex;
