@@ -467,10 +467,11 @@ body {
     align-items: center;
     padding: 0;
 }
-  
+
 nav a {
     border-top: 2px solid white;
      padding-top: 0.65em;
+     
 }
       
 .logobooki {
@@ -482,21 +483,25 @@ nav a {
     border-bottom: 2px solid lightgray;
     width: 100%;
     padding-bottom: 1em;;
-    gap: 195px;
+    gap: 230px;
 }
 
+nav .top {
+    position: relative;
+}
 
 nav .top:hover {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-bottom: 2px solid blue;
     padding-bottom: 1em;
     margin-bottom: -29.5px;
-    width: 420px;
+    width: 430px;
+    margin-right: -110px;
+    margin-left: -110px;
     border-top:  2px solid white;
     padding-top: 1em;
-    box-sizing: border-box; 
-    
+   
 }
       
 .section-title {
@@ -555,8 +560,6 @@ nav .top:hover {
     font-size: 35px;
 }
 
-
-  
 .invictus {
     display: grid;
     grid-template-columns: 1fr 1fr;
