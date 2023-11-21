@@ -18,7 +18,8 @@
 .hebergementsactivites {
     display: flex;
     justify-content: center;
-    gap: 15%;
+    gap: 10%;
+    margin-right: 10px;
 }
   
 .hebergementsactivites .top {
@@ -449,7 +450,7 @@ a {
 
 /******* Mobile ******/
   
-@media screen and (min-width: 320px) and (max-width:768px) {
+@media screen and (max-width:768px) {
       
 .main-container {
     margin: 0;
@@ -570,7 +571,7 @@ nav .top:hover {
 }
   
 .bord {
-    font-size: 28px;
+    font-size: 26px;
     border-radius: 50px;
     border-width: thick;
     padding: 28px;
@@ -602,6 +603,7 @@ nav .top:hover {
 .populaires-cards {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
   
 .populaires-cards .card {
