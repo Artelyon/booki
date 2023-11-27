@@ -37,7 +37,7 @@
     margin-top: 2px;
     margin-bottom: 15px;
 }
-  
+  /******* Champ de recherche *****/
 .recherche {
     padding: 10px;
     margin-top: 3%;
@@ -96,7 +96,7 @@ input:focus {
     font-size: medium;
     display: none;
 }
-  
+  /****** Partie Filtres ****/
 .filtres-container {
     padding-top: 5%;
 }
@@ -158,7 +158,7 @@ input:focus {
     width: 10px;
     height: 10px;
 }
-  
+  /****** Spécifications générales *****/
   
 * {
     font-family: 'Raleway', sans-serif;
@@ -489,8 +489,6 @@ nav a {
    
 }
 
-
-
 .top:hover {
     display: flex;
     justify-content: space-around;
@@ -516,6 +514,8 @@ nav a {
     margin-left: 40px;
     margin-bottom: 50px;
 }
+
+/***** Champ de recherche ****/
   
 .active {
     font-size: 35px;
@@ -555,7 +555,8 @@ nav a {
     position: relative;
     z-index: 1;
 }
-  
+ 
+/******* Partie Filtres ******/
 .strong {
     font-size: 35px;
 }
@@ -670,7 +671,7 @@ nav a {
  }
   
 .hebergements-and-populaires h2 {
-    font-size: 40px;
+    font-size: 39px;
 }
   
 .hebergements-cards h3 {
