@@ -1,10 +1,11 @@
-/****** General ***********/
+/****** Version Destop ***********/
+
+/***** Partie Menu ****/
 
 .menu {
     display: flex;
     justify-content: space-between;
     padding-bottom: 3em;
-    padding-top: 0;
 }
   
 .logobooki {
@@ -358,7 +359,6 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
   
-  
 .Activites-section .card-title {
     padding-left: 5%;
 }
@@ -464,11 +464,11 @@ body {
     padding: 0;
 }
 
-  
 .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px;
     padding: 0;
     width: 100%;
 }
@@ -487,8 +487,8 @@ nav a {
     border-bottom: 2px solid lightgray;
     width: 100%;
     padding-bottom: 1em;;
-    gap: 230px;
-   
+    gap: 275px;
+  
 }
 
 .top:hover {
@@ -496,12 +496,10 @@ nav a {
     justify-content: space-around;
     border-bottom: 2px solid blue;
     margin-bottom: -29.5px;
-    width: 50%;
-   margin-right: -110px;
-    margin-left: -110px;
+    padding-right: 70px;
+    padding-left: 70px;
     border-top:  2px solid white;
     padding-top: 1em;
-    outline: 3px solid #3A3A3A;
 }
 
 h1 {

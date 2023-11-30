@@ -479,25 +479,25 @@
       nav a {
           border-top: 2px solid white;
           padding-top: 0.65em;
+
       }
       
       .logobooki {
           font-size: 29px;
       }
       
-   .top {
-          font-size: 28px;
-          border-bottom: 2px solid lightgray;
-          width: 100%;
-          padding-bottom: 1em;;
-      }
+   nav a:hover {
+    border-bottom: 2px solid blue;
+    padding-bottom: 1em;
+    margin-bottom: -29.5px;
+    
+   }
   
-  .top:hover {
-      border-bottom: 2px solid blue;
-      width: 100%;
-      padding-bottom: 1em;
-      border-top:  2px solid white;
-      padding-top: 1em; 
+  .hebergementsactivites {
+    border-bottom: 2px solid lightgray;
+    width: 100%;
+    padding-bottom: 1em;;
+    font-size: 28px;
   }
       
   .section-title {
