@@ -789,21 +789,13 @@ h1 {
 
 /***** Ajustements au niveau du menu  *****/
 
-@media screen and (max-width:528px) {
+@media screen and (max-width:658px) {
 
-nav {
-    width:fit-content;
-}
-
-.menu {
-    width: fit-content;
-}
 
 .hebergementsactivites {
-    width: fit-content;
-}
+    gap: 15px;
 }
 
-
+}
 
 
