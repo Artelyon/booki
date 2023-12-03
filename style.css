@@ -21,12 +21,18 @@
     margin-right: 10px;
 }
   
-.hebergementsactivites .top {
+.hebergementsactivites a {
     margin-top: 0;
     padding-top: 1em;
 }
   
-.top:hover {
+.top1:hover {
+    color: #0065FC;
+    border-top: 2px solid blue;
+    padding-top: 0.9em;
+}
+
+.top2:hover {
     color: #0065FC;
     border-top: 2px solid blue;
     padding-top: 0.9em;
@@ -483,32 +489,46 @@ nav a {
 }
       
 .hebergementsactivites {
+    display: flex;
+    text-align: center;
     font-size: 28px;
-    border-bottom: 2px solid lightgray;
+    border-bottom: 4px solid lightgray;
     width: 100%;
     padding-bottom: 1em;
-    gap: 275px;
-  
+    margin: 0;
+    gap: 2px;
 }
 
-.top {
-    padding-right: 30px;
-    padding-left: 30px;
-    position: initial;
+.top1 {
+    border-bottom: 4px solid transparent;
+    width: 100%;
+    }
+
+.top1:hover {
+    border-bottom: 4px solid blue;
+    margin-bottom: -31.5px;
+    width: 100%;
+    border-top:  2px solid white;
+    padding-top: 1em;
 }
 
-.top:hover {
-    position: inherit;
-    border-bottom: 2px solid blue;
-    margin-bottom: -29.5px;
-    padding-right: 170px;
-    padding-left: 170px;
+.top2 {
+    border-bottom: 4px solid transparent;
+    width: 100%;
+    
+}
+
+.top2:hover {
+    
+    border-bottom: 4px solid blue;
+    margin-bottom: -31.5px;
+    width: 100%;
     border-top:  2px solid white;
     padding-top: 1em;
 }
 
 h1 {
-    padding-top: 35px;
+    padding-top: 60px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -573,6 +593,7 @@ h1 {
     grid-template-rows: 85px 85px;
     gap: 30px;
     margin-left: 25px;
+    margin-top: 25px;
     width: 95%;
 }
   
@@ -758,27 +779,18 @@ h1 {
 
 /****** Ajustements au  niveau des filtres *****/
 
-@media screen  and (max-width:681px) {
-
-.filtres {
-    display: flex;
-    flex-direction: column;
-}
-
-.filtres_options {
-    margin-top: 25px;
-}
-
-}
 
 @media screen  and (max-width:587px) {
+
+.strong {
+    padding-left: 175px;
+}
 
 .filtres_options {
     display: flex;
     flex-direction: column;
     padding-top: 25px;
     margin: 0;
-
 }    
 
 .bord {
@@ -787,15 +799,7 @@ h1 {
 
 }
 
-/***** Ajustements au niveau du menu  *****/
-
-@media screen and (max-width:658px) {
 
 
-.hebergementsactivites {
-    gap: 15px;
-}
-
-}
 
 
