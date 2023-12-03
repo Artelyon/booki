@@ -151,7 +151,6 @@ input:focus {
   
 .infoicon {
     padding: 10px;
-    padding-left: 11px;
     border: 1px;
     border-width: thin;
     border-style : solid;
@@ -159,6 +158,7 @@ input:focus {
     border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 10px;
     height: 10px;
 }
@@ -591,14 +591,15 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 85px 85px;
-    gap: 30px;
-    margin-left: 25px;
+    gap: 50px;
+    margin-left: 18px;
+    margin-right: 18px;
     margin-top: 25px;
     width: 95%;
 }
   
 .bord {
-    font-size: 26px;
+    font-size: 28px;
     border-radius: 50px;
     border-width: thick;
     padding: 28px;
@@ -607,18 +608,27 @@ h1 {
 }
   
 .infoicon {
+    font-size: 23px;
     width: 25px;
     height: 25px;
-    padding-left: 17px;
+    padding-right: 14px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.dispo {
+    padding-left: 15px;
 }
   
 .logements {
     font-size: 30px;
     display: flex;
     align-items: baseline;
-    text-align: center;
     margin-right: 45px;
     margin-left: 30px;
+    margin-top: 55px;
 }
   
 /******** Populaires ******/
@@ -777,20 +787,29 @@ h1 {
   
 }
 
-/****** Ajustements au  niveau des filtres *****/
+/****** Ajustements sous 650px *****/
 
 
-@media screen  and (max-width:587px) {
+@media screen  and (max-width:650px) {
+
+.infoicon {
+    width:5vmin;
+    height: 4vmin;
+}
 
 .strong {
     margin: auto; 
+}
+
+.filtres {
+    margin-top: 20px;
 }
 
 .filtres_options {
     display: flex;
     flex-direction: column;
     padding-top: 25px;
-    margin: 0;
+    margin: auto;
 }    
 
 .bord {
