@@ -22,7 +22,6 @@
 }
   
 .hebergementsactivites a {
-    margin-top: 0;
     padding-top: 1em;
 }
   
@@ -80,7 +79,6 @@ input {
 input:focus {
     outline: #F2F2F2;
 }
-  
   
 .click {
     border-radius: 0px 15px 15px 0px;
@@ -164,6 +162,7 @@ input:focus {
     width: 10px;
     height: 10px;
 }
+
   /****** Spécifications générales *****/
   
 * {
@@ -415,6 +414,7 @@ a {
 }
   
 .hebergements-and-populaires {
+    display: flex;
     flex-direction: column;
 }
   
@@ -783,7 +783,7 @@ h1 {
 @media screen  and (max-width:587px) {
 
 .strong {
-    padding-left: 175px;
+    margin: auto; 
 }
 
 .filtres_options {
