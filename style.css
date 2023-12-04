@@ -89,6 +89,7 @@ input:focus {
     color: white;
     font-weight: bold;
     font-size: medium;
+    cursor: pointer;
 }
   
 .glass {
@@ -100,6 +101,7 @@ input:focus {
     color: white;
     font-size: medium;
     display: none;
+    cursor: pointer;
 }
   /****** Partie Filtres ****/
 
@@ -615,7 +617,6 @@ h1 {
     padding-left: 14px;
     display: flex;
     align-items: center;
-    justify-content: baseline;
 }
 
 .dispo {
