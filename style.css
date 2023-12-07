@@ -698,12 +698,14 @@ h1 {
 }
   
 .lignehebergement {
-     display: flex;
+    display: flex;
     flex-direction: column;
+    gap: 5%;
 }
   
 .hebergements-cards .card {
     width: 100%;
+    padding: 0px;
 }
   
 .hebergements-cards .card-title {
@@ -721,7 +723,7 @@ h1 {
 .hebergements-cards img { 
     height: 200px;
     width: 100%;
- }
+}
   
  .hebergements-cards .card-content {
     box-sizing: border-box;
@@ -809,8 +811,3 @@ h1 {
 }
 
 }
-
-
-
-
-
