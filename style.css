@@ -4,7 +4,7 @@
 
 .menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  /****** Logo et liens ****/
     padding-bottom: 3em;
 }
   
@@ -46,8 +46,8 @@
 
 .recherche {
     padding: 10px;
-    margin-top: 3%;
-    margin-right: 80%;
+    margin-top: 35px;
+    margin-right: 930px;
     display: flex;
     justify-content: flex-start
 }
@@ -72,8 +72,8 @@ input {
     width: 160px;
     font-weight: bold;
     font-size: medium;
-    padding-left: 8%;
-    padding-right: 2%;
+    padding-left: 27px;
+    padding-right: 7px;
 }
   
 input:focus {
@@ -106,7 +106,7 @@ input:focus {
   /****** Partie Filtres ****/
 
 .filtres-container {
-    padding-top: 5%;
+    padding-top: 65px;
 }
   
 .filtres {
@@ -116,7 +116,7 @@ input:focus {
     gap: 1%;
 }
   
-.filtres_options {
+.filtres_options { /******* Les quatres filtres ****/
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -193,11 +193,11 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 0;
+    
 }
   
 .main-container {
     width: 100%;
-    max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -219,9 +219,7 @@ a {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
   
-.card img {
-    object-fit: cover;
-}
+
   
 .card-title {
     white-space: nowrap;
@@ -242,6 +240,7 @@ a {
   .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+   
   }
   
   .hebergements-and-populaires section {
@@ -249,34 +248,36 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+  
   }
   
   /****** Hebergements ***********/
 
   .hebergements {
     width: 65%;
+ 
 }
   
 .lignehebergement {      /******ligne horizontale de cards dans la section herbergements *****/
     display: flex;
-    justify-content: flex-start;
-    justify-content:space-between ;
-    padding-right: 2%;
-    gap: 35px;
+    justify-content: space-around;
+    gap: 4%;
 }
   
 .hebergements-cards .card {
     margin-top: 33px;
-    width: 100%;
     padding: 5px;
 }
+
   
 .hebergements-cards .card-title {
     margin: 0;
+
 }
   
 .hebergements-cards .card-subtitle {
-    margin-bottom: 1.5%;
+    margin-bottom: 4px;
+    
 }
   
 .hebergements-cards img { 
@@ -284,12 +285,20 @@ a {
     border-top-left-radius: 20px;
     width: 100%;
     height: 115px;
+    object-fit: cover;
+
 }
   
 .card-largeur {
     width: 100%;
+   
 }
-  
+
+.lignehebergement .card {
+    width: 16vmax;
+}
+
+
 .hebergements .card-content {
     padding-left: 10px;
 }
@@ -348,18 +357,21 @@ a {
     padding-left: 30px;
 }
   
-.Activites-section{
-    margin-top: 5%;
+.Activites-section {
+    margin-top: 65px;
+    width: 100%;
 }
   
 .Activites-section .Activites-cards {
     display: flex;
-    justify-content: flex-start;
-    gap: 3%;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    
 }
   
 .Activites-section .cardfoot {
-    width: 25%;
+    width: 20vmax;
     background-color: white;
     border-radius: 20px;
     border-width: 0px 0px 0px 100px;
@@ -368,11 +380,11 @@ a {
 }
   
 .Activites-section .card-title {
-    padding-left: 5%;
+    padding-left: 15px;
 }
   
 .Activites-cards img {
-    width: 100%;
+    width: 20vmax;
     height: 500px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -387,6 +399,7 @@ a {
     border-radius: 0;
     background-color: #F2F2F2;
     margin-top: 75px;
+    
 }
   
 .bottomlinks {
@@ -395,6 +408,8 @@ a {
     gap: 20%;
     padding-left: 15px;
 }
+
+
   
   /******* Tablette ******/
   
@@ -427,7 +442,11 @@ a {
 .card-largeur {
     width: 100%;
 }
-    
+
+.lignehebergement .card {
+    width: 24vmax;
+}
+
 .populaires {
     width: 100%;
     margin-top: 50px;
@@ -449,11 +468,16 @@ a {
 .populaires-cards .card-subtitle {
     font-size: 13px;
 }
+
+.Activites-section .Activites-cards {
+    width: 100%;
+}
   
 .Activites-cards img {
     height: 220px;
 }
-  
+
+
 }
   
   
@@ -576,8 +600,6 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    position: relative;
-    z-index: 1;
 }
  
 /******* Partie Filtres ******/
@@ -628,6 +650,8 @@ h1 {
     margin-left: 30px;
     margin-top: 55px;
 }
+
+/****** Hébergements et Populaires ******/
   
 /******** Populaires ******/
   
@@ -705,7 +729,7 @@ h1 {
   
 .hebergements-cards .card {
     width: 100%;
-    padding: 0px;
+    padding: 0;
 }
   
 .hebergements-cards .card-title {
@@ -787,7 +811,7 @@ h1 {
 @media screen  and (max-width:650px) {
 
 .infoicon {
-    width:5vmin;
+    width: 5vmin;
     height: 4vmin;
 }
 
